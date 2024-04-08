@@ -1,19 +1,12 @@
 import React from 'react'
 import HelixgadeLayout from '../../layout/HelixgadeLayout';
 import { about } from '../../assets/images';
-import { arrow } from '../../assets/icons';
 import { AboutData, ValuesData } from './components/AboutData';
 import { AboutCard, ValueCard } from './components/AboutCard';
-import { Input } from '../../components/elements';
 import Newsletter from './components/Newsletter';
 
 const About = () => {
-  const about = {
-    icon: arrow,
-    title: "About Us",
-    desc: "We strive for perfection in everything we do, ranging from development to deployment"
-
-  }
+  
   return (
     <HelixgadeLayout>
       <div className="md:text-center text-primary-blue bg-primary-white pt-[60px] md:pt-[120px] px-4">
