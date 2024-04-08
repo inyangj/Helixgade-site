@@ -11,6 +11,12 @@ import Profile from "../pages/Dashboard/Profile";
 import Settings from "../pages/Dashboard/Settings";
 import ForgetPwd from "../pages/Auth/ForgetPwd";
 import CreatePwd from "../pages/Auth/CreatePwd";
+import Services from "../pages/Servicess/page";
+import Works from "../pages/Works/page";
+import About from "../pages/About/page";
+import Contacts from "../pages/Contacts/page";
+import Product from "../pages/Product/page";
+
 
 
 
@@ -21,15 +27,11 @@ const AppRouter = () => {
     <BrowserRouter>
       <Routes>
         <Route index path={'/'} element={<Home />} />
-        <Route path={routes.LOGIN} element={<Login />} />
-        <Route path={routes.SIGN_UP} element={<Signup />} />
-        <Route path={routes.FORGOT_PASSWORD} element={<ForgetPwd />} />
-        <Route path={routes.RESET_PASSWORD} element={<CreatePwd />} />
-        <Route path={routes.DASHBOARD} element={<DashboardLayout />} >
-            <Route index element={<Feeds />} />
-            <Route path={routes.PROFILE} element={<Profile />} />
-            <Route path={routes.SETTINGS} element={<Settings />} />
-          </Route>
+        <Route path={routes.ABOUT} element={<About />} />
+        <Route path={routes.CONTACTS} element={<Contacts />} />
+        <Route path={routes.PRODUCT} element={<Product />} />
+        <Route path={routes.WORKS} element={<Works />} />
+        <Route path={routes.SERVICES} element={<Services />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

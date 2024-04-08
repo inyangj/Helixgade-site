@@ -7,6 +7,12 @@ const routes = {
   DASHBOARD: "/dashboard",
   PROFILE: "/dashboard/profile",
   SETTINGS: "/dashboard/settings",
+  HOME: "/",
+  SERVICES: "/services",
+  WORKS: "/works",
+  ABOUT: "/about",
+  CONTACTS: "/contacts",
+  PRODUCT: "/product",
 };
 
 export default routes;
