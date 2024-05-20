@@ -22,7 +22,8 @@ import arrow from './arrow.svg';
 import quality from './quality.svg';
 import relation from './relation.svg';
 import light from './light.svg';
+import down from './down.svg';
 
 
 
-export { google, success, error, logo, logo2, facebook, twitter, instagram, linkedin, coaching, design, digital, pen, product, tech, flex, immersion, impact, partner, sustain, arrow, quality, relation, light };
+export { google, success, error, logo, logo2, facebook, twitter, instagram, linkedin, coaching, design, digital, pen, product, tech, flex, immersion, impact, partner, sustain, arrow, quality, relation, light, down };
