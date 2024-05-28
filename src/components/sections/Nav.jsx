@@ -54,7 +54,7 @@ const Nav = ({ className }) => {
         </ul>
       </div>
       <Button
-        className={`bg-primary-blue py-3 px-6 font-medium hidden  lg:flex`}
+        className={`bg-primary-blue text-white py-3 px-6 font-medium hidden  lg:flex`}
       >
         Get a Free Quote
       </Button>
@@ -93,7 +93,9 @@ const Nav = ({ className }) => {
               <li>Contact</li>
             </Link>
             <li>
-              <Button className={`bg-primary-blue py-3 px-6 font-medium`}>
+              <Button
+                className={`bg-primary-blue text-white py-3 px-6 font-medium`}
+              >
                 Get a Free Quote
               </Button>
             </li>

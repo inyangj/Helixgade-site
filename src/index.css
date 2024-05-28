@@ -1,3 +1,6 @@
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,3 +16,45 @@
     min-height: 100vh;
     width: 100%;
   }
+
+
+   .pit {
+ border-radius: 100%;
+ padding: 20px 16px;
+  } 
+
+  /* General styles for all testimonial cards */
+/* .testimonial-card {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 8px;
+} */
+
+/* Styles for the centered testimonial card */
+/* .slick-center .testimonial-card {
+  transform: scale(1.2);
+  opacity: 1;
+  z-index: 1;
+} */
+
+/* Additional styles for the non-centered cards to make them smaller */
+/* .slick-slide {
+  opacity: 0.5;
+}
+
+.slick-center {
+  opacity: 1 !important;
+} */
+
+/* @media (min-width: 1440px) {
+  .carousel-slide {
+    width: 463px;
+  }
+  .carousel-slide.active {
+    width: 651px;
+  
+  }
+} */
+

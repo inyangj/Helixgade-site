@@ -18,7 +18,7 @@ const Interest = () => {
         Contact us now and lets turn your ideas into a full Digital product that
         will suit your business needs.
       </p>
-      <Button className="mx-auto bg-primary-blue mb-[50px] py-3 px-6 lg:py-6 lg:px-12 ">
+      <Button className="mx-auto bg-primary-blue text-white mb-[50px] py-3 px-6 lg:py-6 lg:px-12 ">
         Get Started
       </Button>
     </section>
