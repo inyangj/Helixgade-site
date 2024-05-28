@@ -23,7 +23,16 @@ import quality from './quality.svg';
 import relation from './relation.svg';
 import light from './light.svg';
 import down from './down.svg';
+import who from './who.svg';
+import why from './why.svg';
+import client from './client.svg';
+import difference from './difference.svg';
+import andela from "./andela.svg";
+import bamboo from "./bamboo.svg";
+import bluechip from "./bluechip.svg";
+import goo from "./Goo.svg";
+import interswitch from "./interswitch.svg";
+import kd from "./kd.svg";
 
 
-
-export { google, success, error, logo, logo2, facebook, twitter, instagram, linkedin, coaching, design, digital, pen, product, tech, flex, immersion, impact, partner, sustain, arrow, quality, relation, light, down };
+export { google, success, error, logo, logo2, facebook, twitter, instagram, linkedin, coaching, design, digital, pen, product, tech, flex, immersion, impact, partner, sustain, arrow, quality, relation, light, down, who, why, client, difference, andela, bamboo, bluechip, goo, interswitch, kd };

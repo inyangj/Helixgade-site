@@ -34,6 +34,18 @@ export default {
       borderRadius: {
         btnRadius: "10px",
       },
+      backgroundImage: {
+        "hero": "url('/src/assets/images/home.svg')",
+      },
+       keyframes: {
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        scroll: 'scroll 30s linear infinite',
+      },
     },
   },
   plugins: [],

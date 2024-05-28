@@ -1,22 +1,13 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import routes from "./routes";
-import Signup from "../pages/Auth/Signup";
-import Login from "../pages/Auth/Login";
 import Home from "../pages/Home";
 import NotFound from "../pages/404";
-import DashboardLayout from "../layout/DashboardLayout";
-import Feeds from "../pages/Dashboard/Feeds";
-import Profile from "../pages/Dashboard/Profile";
-import Settings from "../pages/Dashboard/Settings";
-import ForgetPwd from "../pages/Auth/ForgetPwd";
-import CreatePwd from "../pages/Auth/CreatePwd";
 import Services from "../pages/Servicess/page";
 import Works from "../pages/Works/page";
 import About from "../pages/About/page";
 import Contacts from "../pages/Contacts/page";
 import Product from "../pages/Product/page";
-
 
 
 
