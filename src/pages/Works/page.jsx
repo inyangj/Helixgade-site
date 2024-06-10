@@ -70,7 +70,7 @@ const Works = () => {
       </article>
       <section className="text-primary-blue my-5 md:my-10 lg:my-20 xl:my-[120px] px-4 md:px-[120.5px] xl:px-[160px] grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14">
         {workData.map((work, index) => (
-          <WorkCard key={index} work={work} />
+          <WorkCard key={index} work={work} index={index} />
         ))}
       </section>
       <ChooseHelixgade />
@@ -98,9 +98,9 @@ const Works = () => {
             <p className=" text-primary-blue text-sm md:text-lg font-medium hover:bg-primary-white p-2 py-1  md:p-4 ">
               Mobile Apps
             </p>
-            <button onClick={closeModal} className="mt-4">
+            {/* <button onClick={closeModal} className="mt-4">
               Close Modal
-            </button>
+            </button> */}
           </div>
         </div>
       )}

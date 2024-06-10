@@ -20,7 +20,7 @@ const AppRouter = () => {
         <Route index path={'/'} element={<Home />} />
         <Route path={routes.ABOUT} element={<About />} />
         <Route path={routes.CONTACTS} element={<Contacts />} />
-        <Route path={routes.PRODUCT} element={<Product />} />
+        <Route path={`${routes.PRODUCT}/:productId`} element={<Product />} />
         <Route path={routes.WORKS} element={<Works />} />
         <Route path={routes.SERVICES} element={<Services />} />
         <Route path="*" element={<NotFound />} />

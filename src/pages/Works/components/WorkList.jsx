@@ -9,7 +9,7 @@ const WorkList = ({ limit }) => {
   return (
     <aside className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-14 text-left">
       {limitedWorkData.map((work, index) => (
-        <WorkCard key={index} work={work} />
+        <WorkCard key={index} work={work} index={index} />
       ))}
     </aside>
   );

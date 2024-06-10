@@ -47,7 +47,7 @@ const Contacts = () => {
               placeholder="Enter Description"
             />
           </div>
-          <Button type="submit" className="mt-6 bg-primary-blue py-3">
+          <Button type="submit" className="mt-6 text-white bg-primary-blue py-3">
             Send Message
           </Button>
         </form>

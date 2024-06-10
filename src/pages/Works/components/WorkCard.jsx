@@ -1,6 +1,12 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 
-const WorkCard = ({work}) => {
+const WorkCard = ({work, index}) => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate(`/product/${index}`);
+  };
   return (
     <div className="grid gap-3 md:gap-6">
       <img src={work.img} alt="img" />
@@ -11,7 +17,7 @@ const WorkCard = ({work}) => {
         {work.desc}
       </p>
       </div>
-      <button className="bg-primary-blue text-white text-lg font-medium h-fit px-4 py-2 rounded w-full">
+      <button className="bg-primary-blue text-white text-lg font-medium h-fit px-4 py-2 rounded w-full" onClick={handleClick}>
         learn more
       </button>
     </div>

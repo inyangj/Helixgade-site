@@ -44,9 +44,9 @@ const Nav = ({ className }) => {
           <Link to={routes.SERVICES}>
             <li>Service</li>
           </Link>
-          <Link to={routes.PRODUCT}>
+          {/* <Link to={routes.PRODUCT}>
             <li>Product Creek</li>
-          </Link>
+          </Link> */}
 
           <Link to={routes.CONTACTS}>
             <li>Contact</li>
@@ -85,9 +85,9 @@ const Nav = ({ className }) => {
             <Link to={routes.SERVICES}>
               <li>Service</li>
             </Link>
-            <Link to={routes.PRODUCT}>
+            {/* <Link to={routes.PRODUCT}>
               <li>Product Creek</li>
-            </Link>
+            </Link> */}
 
             <Link to={routes.CONTACTS}>
               <li>Contact</li>

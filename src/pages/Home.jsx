@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
-import { location } from "../assets/images";
 import routes from "../router/routes";
 import HelixgadeLayout from "../layout/HelixgadeLayout";
 import { Button } from "../components/elements";
 import { pen } from "../assets/icons";
 import ChooseHelixgade from "../components/sections/ChooseHelixgade";
-import WorkCard from "./Works/components/WorkCard";
-import { workData } from "./Works/components/WorkDatas";
 import WorkList from "./Works/components/WorkList";
 import Partners from "../components/sections/Partners";
 import Interest from "./Servicess/components/Interest";
